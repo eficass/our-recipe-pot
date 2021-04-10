@@ -1,0 +1,44 @@
+.nav-top {
+    display: flex;
+    background-color: teal;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    
+}
+
+.logo {
+    background-color: black;
+    margin-left: 3rem;
+}
+
+.links{
+    background-color: thistle;
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.nav-top a {
+    text-decoration: none;
+}
+
+.links ul li a {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}

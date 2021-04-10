@@ -1,0 +1,11 @@
+<%- layout('layouts/boilerplate') %>
+
+<h1>All recipes!</h1>
+<a href="/recipes/new">Add new Recipe</a>
+<ul>
+    <% for(let recipe of recipes) {%>
+    <li>
+        <a href="/recipes/<%= recipe._id %> "><%= recipe.title %> </a>
+    </li>
+    <% } %>
+</ul>
